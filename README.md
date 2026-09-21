@@ -34,7 +34,7 @@ QueraList is designed to help users organize their daily routines and achieve th
 
 To run this project locally on your machine:
 
-1. **Clone the repository:**
+ **Clone the repository:**
 ```bash
    git clone https://github.com/Farhan-esmatdoost/Landing-Page.git
-   
+```
