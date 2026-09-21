@@ -36,5 +36,5 @@ To run this project locally on your machine:
 
  **Clone the repository:**
 ```bash
-   git clone https://github.com/Farhan-esmatdoost/Landing-Page.git
+   git clone https://github.com/farhan-esmatdoost/Landing-Page.git
 ```
