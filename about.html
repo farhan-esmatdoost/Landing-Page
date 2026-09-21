@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fa-IR" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing Page</title>
+        <!-- Tailwind -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+        <script src="./styles/tailwind.js"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./styles/main-tailwind.css" />
+    </head>
+    <!-- About Me -->
+    <body>
+        <!-- Header Section  -->
+        <!-- موبایل -->
+        <header
+            class="py-3 px-4 grid grid-cols-3 justify-center justify-items-center bg-[var(--color-background-light)] md:hidden"
+        >
+            <img
+                src="./assets/icons/hamburger-menu.svg"
+                alt="hamburger-menu"
+                class="justify-self-start cursor-pointer"
+            />
+            <a
+                href="#"
+                class="no-underline justify-self-center text-lg font-semibold text-[#141414]"
+                >کوئرا لیست</a
+            >
+        </header>
+        <main class="bg-[linear-gradient(180deg,#F5F6F8_0%,#ffffff_100%)]">
+            <!-- عکس انسان -->
+            <section class="mb-6">
+                <div class="px-4 py-6 flex justify-center items-center">
+                    <img
+                        src="./assets/icons/human-face.svg"
+                        alt="human face"
+                        class="w-full object-cover"
+                    />
+                </div>
+            </section>
+            <!-- درباره من -->
+            <section class="mb-6">
+                <!-- عنوان -->
+                <div class="flex flex-col justify-center items-center mb-4">
+                    <p class="font-bold text-3xl text-[#141414] mb-2">
+                        درباره من
+                    </p>
+                    <h1 class="font-extrabold text-4xl text-[#575757]">
+                        محمد محمدی
+                    </h1>
+                </div>
+                <!-- توضیحات -->
+                <div class="rounded-2xl shadow-sm p-4 mx-4">
+                    <p
+                        class="text-center leading-relaxed text-[#444749] text-lg"
+                    >
+                        کاربران اندروید می‌توانند اپلیکیشن کوئرالیست را از
+                        استورهای معتبر اندروید دانلود نمایند. همچنین کاربران
+                        سیستم عامل اپل علاوه بر دانلود نرم‌افزار از اپل‌استور
+                        می‌توانند از نسخه مبتنی بر وب آن استفاده نمایند. کاربران
+                        اندروید می‌توانند اپلیکیشن کوئرالیست را از استورهای
+                        معتبر اندروید دانلود نمایند. همچنین کاربران سیستم عامل
+                        اپل علاوه بر دانلود نرم‌افزار از اپل‌استور می‌توانند از
+                        نسخه مبتنی بر وب آن استفاده نمایند. کاربران اندروید
+                        می‌توانند اپلیکیشن کوئرالیست را از استورهای معتبر
+                        اندروید دانلود نمایند. همچنین کاربران سیستم عامل اپل
+                        علاوه بر دانلود نرم‌افزار از اپل‌استور می‌توانند از نسخه
+                        مبتنی بر وب آن استفاده نمایند.
+                    </p>
+                </div>
+            </section>
+            <!-- مشخصات و رزومه -->
+            <section class="mb-12 grid grid-cols-2 gap-4 px-4">
+                <div class="rounded-2xl shadow-sm py-4 px-3">
+                    <p class="mb-[10px] font-bold text-xl text-[#070D31]">
+                        1379
+                    </p>
+                    <p class="text-[#444749]">سال تولد</p>
+                </div>
+                <div class="rounded-2xl shadow-sm py-4 px-3">
+                    <p class="mb-[10px] font-bold text-xl text-[#070D31]">
+                        تهران
+                    </p>
+                    <p class="text-[#444749]">محل زندگی</p>
+                </div>
+                <div class="rounded-2xl shadow-sm py-4 px-3">
+                    <p class="mb-[10px] font-bold text-xl text-[#070D31]">
+                        3.5
+                    </p>
+                    <p class="text-[#444749]">سال تجربه کار</p>
+                </div>
+                <div class="rounded-2xl shadow-sm py-4 px-3">
+                    <p class="mb-[10px] font-bold text-xl text-[#070D31]">
+                        +10
+                    </p>
+                    <p class="text-[#444749]">مشارکت در پروژه‌</p>
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer class="overflow-x-hidden px-4">
+        <!-- کوئرا لیست -->
+        <div class="flex justify-center items-center mb-6 relative">
+            <h6
+                class="font-semibold text-lg md:text-2xl z-10 bg-white px-2 text-[#141414]"
+            >
+                کوئرا لیست
+            </h6>
+            <!-- خط پس زمینه -->
+            <div
+                class="w-full md:w-1/2 h-px bg-[#AFAFAF] absolute translate-y-1/2 top-1/2 z-0"
+            ></div>
+        </div>
+        <!-- محتوای فوتر -->
+        <div class="md:hidden">
+            <!-- با ما در ارتباط باش -->
+            <div class="mb-8">
+                <h6 class="text-[#242424] font-semibold text-lg mb-2">
+                    با ما در ارتباط باش
+                </h6>
+                <p class="text-[#242424] font-normal text-sm">
+                    اگه میخوای اولین نفری باشی که از فیچرهای جدید و تخفیفات با
+                    خبر بشی.
+                </p>
+            </div>
+            <!-- ایمیل -->
+            <div
+                class="h-12 flex justify-between items-center border border-[#A1A1A1] rounded-lg mb-8 pr-6 pl-1.5"
+            >
+                <span class="text-[#BCBCBC] font-normal text-base">ایمیل</span>
+                <div
+                    class="bg-[#2C7EF8] text-white rounded-lg px-4 py-[6px] font-black text-base"
+                >
+                    ارسال
+                </div>
+            </div>
+            <!-- راه های ارتباطی -->
+            <div class="grid grid-cols-2 gap-4 mb-[40px]">
+                <!-- کارت آدرس -->
+                <div
+                    class="bg-white row-span-2 flex flex-col items-center rounded-sm shadow-sm px-4 py-[26px] text-center"
+                >
+                    <img
+                        src="./assets/icons/tag-location.svg"
+                        alt="location"
+                        class="mb-4"
+                    />
+                    <div class="text-[#242424] text-xs font-semibold">
+                        <p>
+                            آدرس دفتر مرکزی: پونک - خیابان اشرفی اصفهانی -
+                            خیابان صبحدل- بن بست شب بو
+                        </p>
+                    </div>
+                </div>
+                <!-- کارت تلفن -->
+                <div
+                    class="bg-white flex items-center rounded-lg shadow-sm px-4 py-[29px]text-center"
+                >
+                    <img
+                        src="./assets/icons/tag-telephone.svg"
+                        alt="telephone"
+                        class="ml-2"
+                    />
+                    <div
+                        class="flex flex-col text-[#242424] text-xs font-semibold"
+                    >
+                        <p>تلفن پشتیبانی</p>
+                        <p>۴۴۴۴۵۵۶۶ - ۰۲۱</p>
+                    </div>
+                </div>
+                <!-- کارت فکس -->
+                <div
+                    class="bg-white flex items-center rounded-lg shadow-sm px-4 py-[29px]text-center"
+                >
+                    <img
+                        src="./assets/icons/tag-fax.svg"
+                        alt="fax"
+                        class="ml-2"
+                    />
+                    <div
+                        class="flex flex-col text-[#242424] text-xs font-semibold"
+                    >
+                        <p>فکس</p>
+                        <p>۴۴۴۴۵۵۶۶ - ۰۲۱</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- کپی رایت -->
+        <div class="flex items-center justify-center mb-[40px]">
+            <p class="text-[#666666] font-normal text-sm">
+                تمامی حقوق مادی و معنوی این سایت متعلق به کوئرا لیست می‌باشد.
+            </p>
+        </div>
+    </footer>
+</html>

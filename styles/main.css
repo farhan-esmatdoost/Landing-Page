@@ -1,0 +1,138 @@
+:root {
+    /* Color Variables */
+    /* رنگ اصلی */
+    --color-primary: #2c7ef8;
+    --color-primary-hover-light: #075cd9;
+    /* رنگ زمینه و سطح */
+    --color-background-light: #ffffff;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family:
+        "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* Header Section */
+.header {
+    height: 49px;
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: var(--color-background-light);
+}
+.header__hamburger-menu {
+    justify-self: start;
+    cursor: pointer;
+}
+
+.header__title {
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #141414;
+}
+/* Hero Section */
+.hero {
+    background: linear-gradient(180deg, #eef4ff 0%, #ffffff 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+}
+/* .hero__content { 
+} */
+.hero__title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 64px;
+}
+.hero__subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 4px;
+}
+.hero__description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.hero__star--top {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    width: 24px;
+    height: 24px;
+}
+.hero__vector {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 101.42px;
+    height: 21.16px;
+}
+.hero__star--bottom {
+    position: absolute;
+    left: 40px;
+    top: 183px;
+    width: 24px;
+    height: 24px;
+}
+
+.hero__circle {
+    pointer-events: none;
+}
+.hero__circle--right {
+    position: absolute;
+    top: 113px;
+    right: -74px;
+    width: 228px;
+    height: 228px;
+}
+.hero__circle--left {
+    position: absolute;
+    top: 14px;
+    left: -114px;
+    width: 228px;
+    height: 228px;
+}
+.hero__actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    z-index: 2;
+    margin-bottom: 40px;
+}
+.btn--primary {
+    width: 156px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--color-background-light);
+    border-radius: 8px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn--secondary {
+    width: 156px;
+    height: 40px;
+    background-color: #ebf3fe;
+    color: var(--color-primary);
+    border-radius: 8px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
